@@ -1,0 +1,37 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+}
+
+button {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.div-banner1 {
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(207, 160, 160);
+    padding: 20px;
+}
+
+.div-banner2 {
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 500px;
+}
